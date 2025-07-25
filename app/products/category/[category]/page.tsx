@@ -1,6 +1,6 @@
 import StoryblokClient from "storyblok-js-client";
 import { notFound } from "next/navigation";
-
+import {ProductPageLayout} from ./ProductPageLayout;
 
 const Storyblok = new StoryblokClient({
   accessToken: process.env.NEXT_PUBLIC_STORYBLOK_TOKEN!,
